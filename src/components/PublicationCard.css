@@ -1,0 +1,10 @@
+.card {
+  background-color: #28252c;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 0.5rem;
+}
+.card:not(:last-child) {
+  margin-bottom: 1rem;
+}

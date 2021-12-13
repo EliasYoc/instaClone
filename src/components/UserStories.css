@@ -1,0 +1,52 @@
+.avatar__squircle {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  --squircle-smooth: 0.3;
+  --squircle-radius: 20px;
+}
+.storie-background {
+  background: hsla(333, 100%, 53%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0F7B", endColorstr="#F89B29", GradientType=1 );
+  mask-image: paint(squircle);
+  -webkit-mask-image: paint(squircle);
+  color: white;
+}
+.storie-image {
+  width: 100%;
+  height: 100%;
+
+  color: white;
+  -webkit-mask-image: paint(squircle);
+  mask-image: paint(squircle);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.3);
+}
+.avatar__name {
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+.footer {
+  background-color: #28252c;
+  border-radius: 1.5rem 1.5rem 0 0;
+  width: 100%;
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  padding: 0.5rem 1.2rem;
+  box-shadow: 0px 5px 20px 1px rgb(22, 22, 22);
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.footer__btn path {
+  stroke: #fff;
+}
+.sqr-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  --squircle-smooth: 0.36;
+  --squircle-radius: 20px;
+  background: linear-gradient(
+    45deg,
+    rgb(65, 62, 245) 20%,
+    rgb(187, 187, 187) 150%
+  );
+  color: white;
+  mask-image: paint(squircle);
+}

@@ -1,0 +1,32 @@
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-head__avatar {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.card-head__avatar img {
+  width: 100%;
+  object-fit: cover;
+}
+.card-head__titles {
+  padding: 0 0.5rem;
+  flex-grow: 1;
+  font-size: 1.2rem;
+}
+.card-head__titles > p {
+  font-size: 0.8rem;
+}
+.card-head__btn {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+}

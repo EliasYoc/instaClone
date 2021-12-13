@@ -1,0 +1,18 @@
+.comments {
+}
+
+.comments__user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+.comments__username {
+  flex-shrink: 0;
+}
+.comments__user > p {
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}

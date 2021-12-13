@@ -1,0 +1,30 @@
+.header-home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-home__btn {
+  background: none;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.header-home__img {
+  filter: drop-shadow(0 0 0.08rem #fff);
+  width: 100px;
+  transition: width 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media only screen and (min-width: 600px) {
+  .header-home__img {
+    width: 200px;
+  }
+}
