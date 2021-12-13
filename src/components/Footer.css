@@ -31,11 +31,7 @@
   height: 50px;
   --squircle-smooth: 0.36;
   --squircle-radius: 20px;
-  background: linear-gradient(
-    45deg,
-    rgb(65, 62, 245) 20%,
-    rgb(187, 187, 187) 150%
-  );
+  background: linear-gradient(45deg, #413ef5 20%, rgb(187, 187, 187) 150%);
   color: white;
   mask-image: paint(squircle);
 }
