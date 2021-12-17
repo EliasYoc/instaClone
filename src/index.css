@@ -3,7 +3,7 @@
   --color-icons: #000;
   --text: #000;
   --bg-card: rgb(220, 220, 220);
-  --color-comments: rgb(225, 225, 225);
+  --color-comments: rgb(51, 51, 51);
 }
 .light {
   --bg-body: #fff;
@@ -27,7 +27,7 @@ div.dark {
   position: absolute;
   top: 0;
   width: 100%;
-  transition: clip-path 2s ease;
+  transition: clip-path 1s ease;
   clip-path: circle(0% at 95% 25px);
 }
 div.dark.hide {
