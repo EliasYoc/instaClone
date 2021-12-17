@@ -1,11 +1,9 @@
-.comments {
-}
-
 .comments__user {
   display: flex;
   align-items: center;
   gap: 1rem;
   font-size: 1.1rem;
+  color: var(--color-comments);
 }
 .comments__username {
   flex-shrink: 0;

@@ -18,10 +18,18 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-        <Footer />
+        <div id="remove-light" className="light">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+          <Footer />
+        </div>
+        <div className="dark">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+          <Footer />
+        </div>
       </BrowserRouter>
     </div>
   );

@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  color: #fff;
 }
 .article-card__img {
   margin: 0.5rem 0;

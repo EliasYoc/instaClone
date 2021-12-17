@@ -15,10 +15,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: var(--color-icons);
 }
 .header-home__img {
-  filter: drop-shadow(0 0 0.08rem #fff);
+  filter: drop-shadow(0 0 0.08rem var(--color-icons));
   width: 100px;
   transition: width 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }

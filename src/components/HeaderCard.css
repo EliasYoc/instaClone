@@ -18,6 +18,7 @@
   padding: 0 0.5rem;
   flex-grow: 1;
   font-size: 1.2rem;
+  color: var(--text);
 }
 .card-head__titles > p {
   font-size: 0.8rem;
@@ -26,7 +27,7 @@
   border: none;
   background: none;
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--color-icons);
   display: flex;
   cursor: pointer;
 }

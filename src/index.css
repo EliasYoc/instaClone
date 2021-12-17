@@ -1,3 +1,39 @@
+:root {
+  --bg-body: #fff;
+  --color-icons: #000;
+  --text: #000;
+  --bg-card: rgb(220, 220, 220);
+  --color-comments: rgb(225, 225, 225);
+}
+.light {
+  --bg-body: #fff;
+  --color-icons: #000;
+  --text: #000;
+  --bg-card: rgb(220, 220, 220);
+  --color-comments: rgb(51, 51, 51);
+}
+.dark {
+  --bg-body: hsl(260, 7%, 8%);
+  --color-icons: #fff;
+  --text: #fff;
+  --bg-card: #28252c;
+  --color-comments: rgb(225, 225, 225);
+}
+div.light {
+  background-color: var(--bg-body);
+}
+div.dark {
+  background-color: var(--bg-body);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transition: clip-path 2s ease;
+  clip-path: circle(0% at 95% 25px);
+}
+div.dark.hide {
+  clip-path: circle(100% at 50% 50%);
+}
+
 *,
 *::after,
 *::before {
@@ -7,8 +43,7 @@
 }
 
 body {
-  background-color: hsl(260, 7%, 8%);
-  color: hsl(0, 0%, 85%);
+  background-color: var(--bg-body);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",

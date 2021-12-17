@@ -1,7 +1,7 @@
 .card-btn {
   background: none;
   border: none;
-  color: #fff;
+  color: var(--color-icons);
   cursor: pointer;
   display: flex;
   justify-content: center;
